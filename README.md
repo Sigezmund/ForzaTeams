@@ -61,6 +61,8 @@ The cost is an extra mapping on every emission and a bit more GC work. On modern
 
 ## If I had more time
 
+**Empty state.** There's no dedicated UI for when the teams list is empty. Right now it just shows a blank screen. A proper empty state with a message would be a small but noticeable improvement.
+
 **Remote config.** I'd add a remote config layer to control the base URLs for the teams list and flag images. For images this would also fix the cache invalidation problem — right now there's no way to expire Coil's disk cache, but changing the URL would bust it naturally.
 
 **Tablet support.** The layout is phone-only. On a tablet the obvious move is a list-detail split — teams on the left, detail panel on the right instead of a bottom sheet.
