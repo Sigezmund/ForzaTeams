@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ForzaTeams</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="sort_label">Sort by</string>
+    <string name="sort_field_name">Name</string>
+    <string name="sort_field_team_id">Team ID</string>
+    <string name="sort_field_population">Population</string>
+    <string name="sort_field_world_cup_titles">World cup titles</string>
+    <string name="sort_field_registered_players">Registered players</string>
+    <string name="sort_field_wc_participations">WC participations</string>
+    <string name="sort_field_world_rank">World rank</string>
+    <string name="error_title">Couldn\'t load teams</string>
+    <string name="error_subtitle">Something went wrong. Please try again.</string>
+    <string name="error_subtitle_no_connection">No internet connection. Check your network settings and retry.</string>
+    <string name="error_subtitle_timeout">Request timed out. Check your connection and retry.</string>
+    <string name="error_subtitle_server">Server error. Please try again later.</string>
+    <string name="error_subtitle_parse">Unexpected response format. Please try again.</string>
+    <string name="error_retry">Retry</string>
+    <string name="error_refresh">Couldn\'t refresh. Showing cached data.</string>
+    <string name="error_refresh_no_connection">No internet connection. Showing cached data.</string>
+    <string name="error_refresh_timeout">Request timed out. Showing cached data.</string>
+    <string name="population_millions">%dM</string>
+    <string name="population_thousands">%dK</string>
+</resources>
